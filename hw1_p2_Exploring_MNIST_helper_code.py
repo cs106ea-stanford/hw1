@@ -239,6 +239,7 @@ pre_trained_results_button.on_click(regenerate_trained_results)
 
 def display_pre_trained_results():
     display(html_style,VBox([pre_trained_results_button,pre_trained_results_output]))
+    regenerate_trained_results(None)
 
 def find_problematic_samples(model,max_percent,n):
     """
