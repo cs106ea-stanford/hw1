@@ -408,3 +408,4 @@ check_chart_test.observe(graph_data, names='value')
 
 def display_choose_data_points():
     display(html_style,data_selection_cell_box)
+    choose_data(None)
